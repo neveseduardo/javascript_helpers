@@ -1,20 +1,12 @@
-import {
-    isCPF,
-    isCNPJ,
-    formatCNPJ,
-    formatCPF,
-} from '../src/modules/cpfcnpj.module'
-import {
-    isPhoneNumber,
-    formatPhoneNumber,
-} from '../src/modules/phonenumber.module'
+import { isCPF, isCNPJ, formatCNPJ, formatCPF } from './modules/cpfcnpj.module'
+import { isPhoneNumber, formatPhoneNumber } from './modules/phonenumber.module'
 import {
     minDate,
     maxDate,
     formatDate,
     isDate,
     datesInPeriod,
-} from '../src/modules/dates.module'
+} from './modules/dates.module'
 import {
     isEmpty,
     onlyNumbers,
@@ -25,7 +17,7 @@ import {
     allValuesAreEmpty,
     formatMoney,
     randNumber,
-} from '../src/modules/methods.module'
+} from './modules/methods.module'
 
 export {
     isCPF,
